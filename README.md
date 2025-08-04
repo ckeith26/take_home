@@ -60,7 +60,7 @@ Submit a PR containing:
 
 ## Getting Started
 
-1. Fork this repository
+1. Clone this repository locally and create a separate private repo for permission (add gfang200 as a collaborator) 
 2. Install dependencies:
    ```bash
    npm install
@@ -71,6 +71,7 @@ Submit a PR containing:
    ```
 4. Implement the KeyTips system
 5. Deploy to Vercel
+6. Push to your forked
 6. Email us a link to your vercel app and PR
 
 ## What We're Looking For
@@ -91,16 +92,6 @@ Remember: This is about understanding your development approach, not getting eve
 - Try performing these operations manually in Google Sheets to understand the expected behavior and user experience
 - Consider how the system should handle cases like invalid key sequences
 - Feel free to make implementation decisions that best showcase your skills!
-
-## On the Time Limit
-
-As this is a take home assignment, there is no way to physically enforce the 1-2 hour time box for the task. That said, we suggest using the 2-hour mark as a reference—both to respect your time and to align with expectations in a real work setting. The goal isn’t a perfect or feature-complete solution, but a functional foundation with clear momentum and direction for completing the task.
-
-If you find that you may need significantly more than 2 hours, consider focusing on components of the problem:
-- Getting the core KeyTips activation and basic navigation working
-- Implementing 1-2 of the required shortcuts thoroughly
-- Documenting your approach and next steps clearly
-- Showing how you would extend the system for the remaining features
 
 Good luck! If you have questions about how any specific Google Sheets behavior works, please ask for clarification.
 
