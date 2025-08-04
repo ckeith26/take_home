@@ -19,6 +19,11 @@ Watch this [Excel KeyTips demonstration](https://www.youtube.com/watch?v=emU9KcZ
 
 You can also see [how KeyTips are implemented in Meridian](https://drive.google.com/file/d/1-GANv2HjCTGD7TGFt6htRV2emEpIIZDn/view?usp=sharing) for reference. Note: Your UI implementation does not need to look the same as Meridian's interface.
 
+
+## Why This Matters
+
+For many financial professionals—especially in banking and consulting—Excel is their IDE. They rely almost entirely on the keyboard, navigating and editing at high speed with muscle memory alone. Reaching for the mouse breaks flow. KeyTips aren’t just a nice-to-have—they’re essential to preserving the kind of power-user experience that makes spreadsheets feel seamless. This assignment simulates how we bring that level of keyboard-driven efficiency into a modern, web-based spreadsheet environment.
+
 ## Requirements
 
 ### 1. Implement These 5 KeyTips
@@ -72,18 +77,30 @@ Submit a PR containing:
 
 **No pressure!** We know this is a time-pressured challenge, and we're not expecting a perfect, production-ready system. Our goal is to understand how you approach problems and make decisions within realistic time constraints.
 
-We'd love to see:
-- Your thought process and how you tackle the implementation within the time frame
-- How you balance features and make trade-offs when time or knowledge is limited
-- Your approach to handling edge cases and following best practices
-- How you use AI tools, documentation, and other resources to solve problems
-- Your ability to understand and extend the requirements from the examples provided
+We love to see:
+- Clear thought process and systematic approach to tackling implementation challenges
+- Intentional balance between features and infrastructure with ruthless prioritization when time or knowledge is limited
+- Proactive handling of edge cases and adherence to best practices
+- Effective use of AI tools, documentation, and other resources to solve problems efficiently
+- Strong ability to autonomously understand and extend requirements from the examples provided
 
 Remember: This is about understanding your development approach, not getting everything perfect. Focus on the MVP requirements and share your thoughts on what you'd improve for production use!
 
 ## Tips
+- Use AI tools effectively but don't get stuck. SpreadJS documentation (https://developer.mescius.com/spreadjs/docs/overview) is also great resource
 - Try performing these operations manually in Google Sheets to understand the expected behavior and user experience
 - Consider how the system should handle cases like invalid key sequences
 - Feel free to make implementation decisions that best showcase your skills!
 
+## On the Time Limit
+
+As this is a take home assignment, there is no way to physically enforce the 1-2 hour time box for the task. That said, we suggest using the 2-hour mark as a reference—both to respect your time and to align with expectations in a real work setting. The goal isn’t a perfect or feature-complete solution, but a functional foundation with clear momentum and direction for completing the task.
+
+If you find that you may need significantly more than 2 hours, consider focusing on components of the problem:
+- Getting the core KeyTips activation and basic navigation working
+- Implementing 1-2 of the required shortcuts thoroughly
+- Documenting your approach and next steps clearly
+- Showing how you would extend the system for the remaining features
+
 Good luck! If you have questions about how any specific Google Sheets behavior works, please ask for clarification.
+
