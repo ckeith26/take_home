@@ -58,7 +58,7 @@ Submit a PR containing:
 - `keytips.md` - Instructions for adding new keytips
 - Updated README listing what you would improve to consider the system "production grade", ranked by importance
 
-## Getting Started
+## Getting Started & Submission
 
 1. Clone this repository locally and create a separate private repo for permission (add gfang200 as a collaborator) 
 2. Install dependencies:
@@ -71,8 +71,8 @@ Submit a PR containing:
    ```
 4. Implement the KeyTips system
 5. Deploy to Vercel
-6. Push to your forked
-6. Email us a link to your vercel app and PR
+6. Push to your work to your cloned private repository
+6. Email us a link to your vercel app and repository
 
 ## What We're Looking For
 
