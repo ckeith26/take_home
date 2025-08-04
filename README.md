@@ -68,16 +68,18 @@ Submit a PR containing:
 5. Deploy to Vercel
 6. Email us a link to your vercel app and PR
 
-## Evaluation Focus
+## What We're Looking For
 
-**Important**: A complete production-grade implementation is not the goal. Focus on meeting the MVP requirements while identifying the gaps and next steps needed for production readiness.
+**No pressure!** We know this is a time-pressured challenge, and we're not expecting a perfect, production-ready system. Our goal is to understand how you approach problems and make decisions within realistic time constraints.
 
-We're interested in:
-- The amount of progress you are able to make within the suggested time frame
-- How you prioritize features and navigate trade-offs within time and knowledge limitations
-- How you handle edge cases and implement best practices
-- How you leverage AI tooling versus traditional resources such as documentation
-- Your ability to generalize product requirements from examples and specs
+We'd love to see:
+- Your thought process and how you tackle the implementation within the time frame
+- How you balance features and make trade-offs when time or knowledge is limited
+- Your approach to handling edge cases and following best practices
+- How you use AI tools, documentation, and other resources to solve problems
+- Your ability to understand and extend the requirements from the examples provided
+
+Remember: This is about understanding your development approach, not getting everything perfect. Focus on the MVP requirements and share your thoughts on what you'd improve for production use!
 
 ## Tips
 - Try performing these operations manually in Google Sheets to understand the expected behavior and user experience
