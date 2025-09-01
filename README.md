@@ -2,7 +2,6 @@
 
 Your task is to implement a keyboard-driven command interface for a web-based spreadsheet application, similar to Excel's KeyTips feature. This system allows users to execute spreadsheet commands through sequential keyboard shortcuts.
 
-**Time Expectation**: 1-2 hours
 **Deliverables**: A working implementation and documentation in a GitHub pull request.
 
 ## What are KeyTips?
