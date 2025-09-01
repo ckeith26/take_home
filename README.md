@@ -73,17 +73,17 @@ Submit a PR containing:
 
 ## What We're Looking For
 
-**No pressure!** We know this is a time-pressured challenge, and we're not expecting a perfect, production-ready system. Our goal is to understand how you approach problems and make decisions within realistic time constraints.
+**Take the time you need.** There’s no strict time limit — most people naturally spend around 3 hours, but what matters is that you end up with something you’re comfortable sharing. The most important thing is that the features work and are usable. The code doesn’t need to be production-ready, but it should be clear, reasonable, and not wildly over-engineered. We care most about seeing your ideas expressed in a way that feels coherent and practical.
 
 We love to see:
 
-* Clear thought process and systematic approach to tackling implementation challenges
-* Intentional balance between features and infrastructure with ruthless prioritization when time or knowledge is limited
-* Proactive handling of edge cases and adherence to best practices
-* Effective use of AI tools, documentation, and other resources to solve problems efficiently
-* Strong ability to autonomously understand and extend requirements from the examples provided
+* A clear thought process and systematic approach to implementation challenges
+* Working, usable features that show a good balance between functionality and engineering
+* Thoughtful handling of edge cases and sensible application of best practices
+* Effective use of AI tools, documentation, and other resources to move quickly and smartly
+* Ability to extend and interpret requirements beyond the bare minimum examples
 
-Remember: This is about understanding your development approach, not getting everything perfect. Focus on the MVP requirements and share your thoughts on what you'd improve for production use!
+Remember: this is about showcasing how you approach building something you can be proud of. Keep the features usable, the ideas clear, and the code grounded in good judgment.
 
 ## Tips
 
