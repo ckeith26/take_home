@@ -2,6 +2,33 @@
 
 Your task is to implement a keyboard-driven command interface for a web-based spreadsheet application, similar to Excel's KeyTips feature. This system allows users to execute spreadsheet commands through sequential keyboard shortcuts.
 
+
+## Features
+
+This project implements a KeyTips system for the embedded SpreadJS spreadsheet. Key implemented features:
+
+- Activation & flow: press Alt (Windows/Linux) or ⌘ (Mac) to open the KeyTips overlay and enter sequential keys to navigate and execute commands.
+- Implemented KeyTips: Paste Values (Alt/Cmd -> H -> V -> V), Border Bottom (H -> B -> B), Border Top (H -> B -> T), AutoFit Column (H -> O -> I), Sort Descending (A -> S).
+- Trie-based matcher and declarative registry (`src/keytips/registry.ts`) for scalable sequences and next-key hinting.
+- `KeytipsProvider`: centralized activation, sequence capture, toast notifications, and SpreadJS action execution context.
+- `KeytipOverlay`: portal-mounted, draggable, keyboard-navigable overlay with breadcrumb, key badges, and footer hints.
+- Paste Values: robust clipboard handling (TSV parsing), values-only paste, fallback to SpreadJS paste when clipboard access is blocked, and user-facing toasts for errors.
+- SpreadJS action wrappers (`src/keytips/actions/*.ts`) for borders, autofit, sort, and paste-values.
+- Top-right toast system for errors and feedback (stacking, auto-dismiss).
+- Safeguards while overlay active: keystroke capture, temporary disabling of grid shortcuts and in-cell editing, and restoration when overlay closes.
+
+## Next Steps
+
+1. Add conflict detection in the KeyTip `registry.ts` (e.g., duplicate sequences).
+
+2. KeyTip Creation by listening: Add the Excel tool menu and write a KeyTipCreation user flow to let users create new toolTips. Users could execute a certain set of commands, and the app would track their history of excel commands and let the user define a new KeyTip shortcut.
+
+3. Undo/redo integration: Wrap actions in transactions so each keytip is a single undo/redo step.
+
+4. Implement more KeyTips such as fill down, bold/italic, number formats, wrap text, alignments, etc. 
+
+5. Fuzz test app and handle unforseen edge cases. 
+
 **Deliverables**: A working implementation and documentation in a GitHub pull request.
 
 ## What are KeyTips?
